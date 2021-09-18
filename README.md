@@ -1,4 +1,9 @@
 # unity-wireframe-shader
+
+>
+> NOTE - this fork has been updated to run in Single Pass Instanced Mode for better performance on modern HMDs and made into a UPM package
+>
+
 ![example](/docs/example.png)
 
 Unity wireframe material using Geometry Shaders built for the [UCLA Game Lab](http://games.ucla.edu/resource/unity-wireframe-shader/) and [Unity Asset Store](https://assetstore.unity.com/packages/vfx/shaders/directx-11/ucla-wireframe-shader-21897) in 2013.
