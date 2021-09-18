@@ -1,5 +1,7 @@
 # unity-wireframe-shader
 
+[![openupm](https://img.shields.io/npm/v/com.virgis.wireframe-shader?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.virgis.wireframe-shader/)
+
 >
 > NOTE - this fork has been updated to run in Single Pass Instanced Mode for better performance on modern HMDs and made into a UPM package
 >
