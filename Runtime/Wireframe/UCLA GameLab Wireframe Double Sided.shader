@@ -27,29 +27,7 @@ Shader "UCLA Game Lab/Wireframe Double Sided"
             
             Blend SrcAlpha OneMinusSrcAlpha
             ZWrite[_ZWrite]
-            Cull Front
-
-            CGPROGRAM
-            #include "UnityCG.cginc"
-            #include "UCLA GameLab Wireframe Shaders.cginc"
-            #pragma target 5.0
-            #pragma vertex UCLAGL_vert
-            #pragma geometry UCLAGL_geom
-            #pragma fragment UCLAGL_frag
-            #pragma shader_feature UCLAGL_CUTOUT
-            #pragma shader_feature UCLAGL_DISTANCE_AGNOSTIC
-
-            ENDCG
-        }
-
-        // Then front faces
-        Pass
-        {
-            Name "FRONTSIDE"
-
-            Blend SrcAlpha OneMinusSrcAlpha
-            ZWrite[_ZWrite]
-            Cull[_Cull]
+            Cull Off
 
             CGPROGRAM
             #include "UnityCG.cginc"
