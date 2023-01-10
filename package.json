@@ -1,6 +1,6 @@
 {
   "name": "com.virgis.wireframe-shader",
-  "version": "1.0.200",
+  "version": "1.0.201",
   "displayName": "UCLA Game Lab Wireframe Shader",
   "description": "Renders a line along every edge between every vertex",
   "unity": "2018.1",
