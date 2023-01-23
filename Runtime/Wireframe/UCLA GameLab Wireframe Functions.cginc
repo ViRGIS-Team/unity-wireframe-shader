@@ -43,7 +43,7 @@ float UCLAGL_GetWireframeAlpha(float3 dist, float thickness, float firmness, flo
     val *= w;
 
     // calculate power to 2 to thin the line
-    val = exp2(-1 / thickness * val * val);
+    val = exp2(-1 / thickness * val * val) + 0.5;
     val = min(val * firmness, 1);
     return val;
 }
